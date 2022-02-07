@@ -2,6 +2,7 @@ const categorieModel = require('../modele/categorie')
 const objectID = require('mongoose').Types.ObjectId
 
 module.exports = {
+    // créer une fonction createCategory
     createCategory: async(req, res) => {
         const {name} = req.body
 
